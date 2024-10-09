@@ -11,30 +11,7 @@ body {
 }
 
 /* تنسيق الشريط العلوي */
-header {
-    background-color: #02022b;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items:last baseline;
-    padding: 10px 3%; /* هوامش 3% */
-    
-}
-
-header .logo img {
-    width: auto; /* الحفاظ على نسبة الصورة */
-    height: 40px;
-    text-align: right; /* يحاذي الشعار إلى اليمين */
-
-}
-
-nav ul {body {
-    font-family: 'Cairo', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-}
-
+/* النمط الأساسي */
 header {
     background-color: #02022b;
     color: white;
@@ -42,6 +19,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 3%;
+}
+
+header .logo img {
+    height: 40px;
 }
 
 nav ul {
@@ -58,6 +39,42 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+}
+
+/* زر القائمة للهامبرغر */
+.nav-toggle {
+    display: none;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* الشاشات الصغيرة */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #02022b;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
 }
 
 .contact-section {
@@ -136,6 +153,11 @@ nav ul li a:hover {
 .main-banner img {
     width: 500px;
     margin-top: 50px; /* تعديل المسافة بين النص والصورة */
+}
+@media (max-width: 768px) {
+    main-banner img {
+        width: 300px; /* تصغير الصورة عند الشاشات الصغيرة */
+    }
 }
 
 .cta-buttons {
