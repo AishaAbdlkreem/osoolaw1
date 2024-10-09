@@ -1,4 +1,44 @@
 /* إعدادات عامة */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* القواعد العامة */
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+/* تخطيط متجاوب */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column; /* تحويل القائمة إلى عمود */
+    }
+
+    nav ul li {
+        margin: 5px 0; /* ضبط الهوامش */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em; /* ضبط حجم الخط */
+    }
+
+    .container {
+        padding: 5px;
+    }
+}
+
 body {
     font-family: 'Cairo', sans-serif;
     margin: 1%;
