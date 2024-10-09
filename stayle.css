@@ -134,6 +134,12 @@ nav ul li a:hover {
 .main-banner {
     text-align: center;
     padding: 150px 20px; /* هوامش */
+    box-sizing: border-box; /* تشمل الحدود والهوامش الداخلية ضمن قياسات العرض والارتفاع للعنصر */
+    background-image: url(imges/back.jpeg); /* تحدد الصورة التي ستظهر كخلفية للعنصر */
+    background-size: cover; /* تجعل الصورة تغطي كامل مساحة العنصر، مع إمكانية قص بعض الأجزاء */
+    background-position: center; /* تضع الصورة في منتصف العنصر أفقيًا وعموديًا */
+    background-repeat: no-repeat; /* تمنع تكرار الصورة في الخلفية إذا كانت أصغر من العنصر */
+
     background-color: rgba(255, 255, 255, 0.13);
 }
 
