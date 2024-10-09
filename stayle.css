@@ -1,0 +1,360 @@
+/* إعدادات عامة */
+body {
+    font-family: 'Cairo', sans-serif;
+    margin: 1%;
+    padding: 1%;
+    box-sizing: border-box;
+    background-image: url(imges/back.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* تنسيق الشريط العلوي */
+header {
+    background-color: #02022b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items:last baseline;
+    padding: 10px 3%; /* هوامش 3% */
+    
+}
+
+header .logo img {
+    width: auto; /* الحفاظ على نسبة الصورة */
+    height: 40px;
+    text-align: right; /* يحاذي الشعار إلى اليمين */
+
+}
+
+nav ul {body {
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #02022b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 3%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contact-section h2 {
+    font-size: 32px;
+    color: #130e3e;
+}
+
+.contact-section p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-icon {
+    text-decoration: none;
+    color: #130e3e;
+    margin: 0 10px;
+    font-size: 30px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #0011ff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #02022b;
+    color: white;
+}
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-align: left; /* يحاذي الروابط إلى اليسار */
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* تنسيق القسم الرئيسي */
+.main-banner {
+    text-align: center;
+    padding: 150px 20px; /* هوامش */
+    background-color: rgba(255, 255, 255, 0.13);
+}
+
+.main-banner h2 {
+    font-size: 30px;
+    color: #5d5b68;
+}
+
+.main-banner img {
+    width: 500px;
+    margin-top: 50px; /* تعديل المسافة بين النص والصورة */
+}
+
+.cta-buttons {
+    margin-top: 20px; /* إضافة مسافة أعلى الأزرار */
+}
+
+.cta-buttons a button {
+    padding: 15px 25px;
+    margin: 3%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.cta-buttons a button:hover {
+    background-color: rgba(6, 7, 64, 0.8);
+}
+
+/* تنسيق قسم لماذا نحن */
+.why-us {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: white;
+}
+
+.why-us h3 {
+    font-size: 50px;
+    color: #130e3e;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* المسافة بين العناصر */
+}
+
+.feature {
+    text-align: center;
+    padding: 15px;
+}
+
+.feature i {
+    font-size: 40px;
+    color: #130e3e; /* لون الرموز */
+}
+
+/* تنسيق قسم الخدمات */
+.services {
+    padding: 100px 20px;
+    background-color: #f9f9f9;
+}
+.services h3 {
+    font-size: 50px; /* اجعل الحجم متساويًا مع "لماذا نحن؟" */
+    color: #130e3e; /* نفس اللون */
+    text-align: center; /* تأكد من محاذاة النص في المنتصف */
+    margin: 20px 0; /* إضافة هوامش أعلى وأسفل */
+}
+
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.service-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px; /* زوايا محدبة */
+    padding: 20px;
+    text-align: center;
+}
+
+.service-item i {
+    font-size: 30px;
+    color: #130e3e; /* لون الرموز */
+}
+
+/* تنسيق قسم الشركاء */
+.partners {
+    padding: 100px 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+.partners h2 {
+    font-size: 50px; /* اجعل الحجم متساويًا مع العناوين الأخرى */
+    color: #130e3e; /* نفس اللون */
+    text-align: center; /* تأكد من محاذاة النص في المنتصف */
+    margin: 20px 0; /* إضافة هوامش أعلى وأسفل */
+}
+
+
+.partner-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* المسافة بين العناصر */
+    flex-wrap: wrap; /* لتجاوز العرض */
+}
+
+.partner-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px; /* زوايا محدبة */
+    padding: 20px;
+    width: 200px; /* عرض ثابت */
+}
+
+.partner-item img {
+    width: 100%;
+    border-radius: 10px; /* زوايا محدبة */
+}
+
+.social-media {
+    margin: 20px 0; /* هوامش حول قسم وسائل التواصل الاجتماعي */
+}
+
+.social-media h4 {
+    margin-bottom: 10px; /* مسافة تحت العنوان */
+    color: white; /* لون النص */
+}
+
+.social-icon {
+    text-decoration: none; /* إزالة التسطير من الروابط */
+    color: white; /* لون الأيقونات */
+    margin: 0 10px; /* مسافة بين الأيقونات */
+    font-size: 24px; /* حجم الأيقونات */
+    transition: color 0.3s; /* تأثير الانتقال عند تغيير اللون */
+}
+
+.social-icon:hover {
+    color: #f0f0f0; /* تغيير اللون عند التمرير */
+}
+/*ايقونة الواتس الثابتة */
+.whatsapp-icon {
+    position: fixed; /* يجعلها ثابتة */
+    bottom: 20px; /* المسافة من الأسفل */
+    right: 50px; /* المسافة من اليمين */
+    color: rgba(24, 107, 35, 0.747); /* لون الأيقونة */
+    padding: 10px; /* مسافة داخلية */
+    font-size: 40px; /* حجم الأيقونة */
+    z-index: 1000; /* للتأكد من ظهور الأيقونة فوق المحتوى */
+
+}
+
+.whatsapp-icon:hover {
+    opacity: 0.8; /* تأثير التمرير */
+}
+
+/* تحسينات إضافية */
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+
+/* تنسيق القسم السفلي */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #02022b;
+    color: white;
+}
+.footer-logo {
+    flex: 1; /* عنصر الشعار */
+}
+
+.footer-logo img {
+    width: 100px; /* ضبط عرض الشعار */
+    margin-bottom: 15px; /* مسافة تحت الشعار */
+}
+
+
+.quick-links {
+    flex: 1; /* عنصر الروابط السريعة */
+}
+
+.quick-links h4 {
+    margin-bottom: 10px; /* إضافة مسافة تحت العنوان */
+    color: #f0f0f0; /* لون العنوان */
+}
+
+.quick-links ul {
+    list-style-type: none; /* إزالة النقاط من القائمة */
+    padding: 0; /* إزالة padding */
+}
+
+.quick-links ul li {
+    margin: 5px 0; /* مسافة بين العناصر */
+}
+
+.quick-links ul li a {
+    color: white; /* لون الروابط */
+    text-decoration: none; /* إزالة التسطير */
+    transition: color 0.3s; /* تأثير الانتقال عند تغيير اللون */
+}
+
+.quick-links ul li a:hover {
+    color: #420295; /* تغيير اللون عند التمرير */
+    text-decoration: underline; /* إضافة التسطير عند المرور */
+}
+/*اتصل بنا */
+
+.contact-section {
+    padding: 100px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.social-media-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social-media-item {
+    background: #0404051a;
+    border-radius: 5px;
+    padding: 10px;
+}
