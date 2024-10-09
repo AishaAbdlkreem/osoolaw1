@@ -138,8 +138,7 @@ nav ul li a:hover {
         background-image: url(imges/back.jpeg);
         background-size: cover;
         background-position: 0% -200px;
-
-    background-color: rgba(255, 255, 255, 0.13);
+        background-color: rgba(255, 255, 255, 0.13);
 }
 
 .main-banner h2 {
