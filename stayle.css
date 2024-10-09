@@ -131,16 +131,20 @@ nav ul li a:hover {
 }
 
 /* تنسيق القسم الرئيسي */
+/* تنسيق القسم الرئيسي */
 .main-banner {
-        position: relative;
-        text-align: center;
-        padding: 150px 20px;
-        box-sizing: border-box;
-        background-image: url(imges/back.jpeg);
-        background-size: cover;
-        background-position: 0% -200px; /* الوسط أفقيًا و200 بكسل من أعلى */
-        background-repeat: no-repeat;
-    }
+    position: relative;
+    text-align: center;
+    padding: 150px 20px;
+    box-sizing: border-box;
+    background-image: url(imges/back.jpeg);
+    background-size: cover;
+    background-position: 0% -200px; /* الوسط أفقيًا و200 بكسل من أعلى */
+    background-repeat: no-repeat;
+    /* خلفية شفافة فوق الصورة */
+    background-color: rgba(255, 255, 255, 0.5); /* لون أبيض شفاف */
+}
+
 
 .main-banner h2 {
     font-size: 30px;
