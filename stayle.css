@@ -137,7 +137,7 @@ nav ul li a:hover {
     box-sizing: border-box;
         background-image: url(imges/back.jpeg);
         background-size: cover;
-        background-position: 0% 100px;
+        background-position: 0% 10%;
 }
 
 .main-banner h2 {
